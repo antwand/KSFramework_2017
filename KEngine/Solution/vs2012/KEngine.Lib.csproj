@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABCAD9CA-1780-52C0-A074-4C970C2949C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KEngine.Lib</RootNamespace>
+    <AssemblyName>KEngine.Lib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Build\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>obj\Debug\KEngine.Lib\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>KENGINE_DLL;_DEBUG;DEBUG;TRACE;MS_DOTNET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>../../Build/Debug/KEngine.Lib.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Build\Release\</OutputPath>
+    <BaseIntermediateOutputPath>obj\Release\KEngine.Lib\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>KENGINE_DLL;MS_DOTNET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>../../Build/Release/KEngine.Lib.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="INIFileParser">
+      <HintPath>..\..\KEngine.UnityProject\Assets\KEngine.Lib\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="TableML">
+      <HintPath>..\..\KEngine.UnityProject\Assets\KEngine.Lib\TableML\TableML.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyInfo.cs">
+      <Link>AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\AppVersion.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\AppVersion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\Debuger.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\Debuger.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\EngineConfigs.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\EngineConfigs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\IModuleInitable.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\IModuleInitable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\KCallback.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\KCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\KEngine.Table\TabFileWriter.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\KEngine.Table\TabFileWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\KEngine.Table\TableFile.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\KEngine.Table\TableFile.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\KEngine.Table\TableRow.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\KEngine.Table\TableRow.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\Logger.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\Logger.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Lib\SettingModule\SettingModuleBase.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Lib\SettingModule\SettingModuleBase.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

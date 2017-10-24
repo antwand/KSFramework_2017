@@ -1,0 +1,321 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-firstpass.dll
+-unsafe
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.CoreModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.PhysicsModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VehiclesModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClothModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AIModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AnimationModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UIModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.IMGUIModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClusterInputModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ClusterRendererModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UNETModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.DirectorModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.WebModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ARModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VRModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.UIElementsModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.StyleSheetsModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AudioModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.GameCenterModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.GridModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.InputModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ParticlesLegacyModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.Physics2DModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TerrainModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.TilemapModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.VideoModule.dll"
+-r:"D:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.WindModule.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll"
+-r:Assets/Plugins/KEngine/KEngine.Lib/INIFileParser.dll
+-r:Assets/Plugins/KEngine/KEngine.Lib/TableML/TableML.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:DEVELOPMENT_BUILD
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_PRO_LICENSE
+Assets/Plugins/KEngine/KEngine.Lib/AppVersion.cs
+Assets/Plugins/KEngine/KEngine.Lib/Debuger.cs
+Assets/Plugins/KEngine/KEngine.Lib/EngineConfigs.cs
+Assets/Plugins/KEngine/KEngine.Lib/IModuleInitable.cs
+Assets/Plugins/KEngine/KEngine.Lib/KCallback.cs
+Assets/Plugins/KEngine/KEngine.Lib/Logger.cs
+Assets/Plugins/KEngine/KEngine.Lib/SettingModule/SettingModuleBase.cs
+Assets/Plugins/KEngine/KEngine.UI/IUIBridge.cs
+Assets/Plugins/KEngine/KEngine.UI/KUIModule.cs
+Assets/Plugins/KEngine/KEngine.UI/UGUIBridge.cs
+Assets/Plugins/KEngine/KEngine.UI/UIController.cs
+Assets/Plugins/KEngine/KEngine.UI/UIWindowAsset.cs
+Assets/Plugins/KEngine/KEngine/AppEngine.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KAbstractResourceLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KAssetBundleLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KAssetBundleParser.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KAssetFileLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KAudioLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KBytesLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KEngineAndroidPlugin.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KFontLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KHttpDownloader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KInstanceAssetLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KMaterialLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KResourceModule.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KSerializeMaterial.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KSerializeMaterialProperty.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KShaderLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KSpriteLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KStaticAssetLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KTextureLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/KWWWLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/LoaderDebugers/KDebuggerObjectTool.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/LoaderDebugers/KResourceLoadedAssetDebugger.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/LoaderDebugers/KResourceLoaderDebuggers.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/ResourceModule/SceneLoader.cs
+Assets/Plugins/KEngine/KEngine/CoreModules/SettingModule.cs
+Assets/Plugins/KEngine/KEngine/IAsyncObject.cs
+Assets/Plugins/KEngine/KEngine/KAsync.cs
+Assets/Plugins/KEngine/KEngine/KBehaviour.cs
+Assets/Plugins/KEngine/KEngine/KEngineDef.cs
+Assets/Plugins/KEngine/KEngine/KObject.cs
+Assets/Plugins/KEngine/KEngine/UnityLayerDef.cs
+Assets/Plugins/KEngine/KEngine/Utils/IKTabReadble.cs
+Assets/Plugins/KEngine/KEngine/Utils/KEngineExtensions.cs
+Assets/Plugins/KEngine/KEngine/Utils/KProfiler.cs
+Assets/Plugins/KEngine/KEngine/Utils/KTabFile.cs
+Assets/Plugins/KEngine/KEngine/Utils/KTool.cs
+Assets/Plugins/KSFramework/KSFrameworkInfo.cs
+Assets/Plugins/KSFramework/KSGame.cs
+Assets/Plugins/KSFramework/Modules/Cookie.cs
+Assets/Plugins/KSFramework/Modules/Event.cs
+Assets/Plugins/KSFramework/Modules/I18N/I18N.cs
+Assets/Plugins/KSFramework/Modules/I18N/I18NExtensions.cs
+Assets/Plugins/KSFramework/Modules/I18N/I18NModule.cs
+Assets/Plugins/KSFramework/Modules/LuaModule/LuaBehaviour.cs
+Assets/Plugins/KSFramework/Modules/LuaModule/LuaModule.cs
+Assets/Plugins/KSFramework/Modules/UI/LuaUIController.cs
+Assets/Plugins/KSFramework/Modules/UI/UGUISLuaBridge.cs
+Assets/Plugins/KSFramework/Modules/UI/UILuaOutlet.cs
+Assets/Plugins/Slua_Managed/Coroutine.cs
+Assets/Plugins/Slua_Managed/Helper.cs
+Assets/Plugins/Slua_Managed/Logger.cs
+Assets/Plugins/Slua_Managed/Lua3rdDLL.cs
+Assets/Plugins/Slua_Managed/Lua3rdMeta.cs
+Assets/Plugins/Slua_Managed/LuaArray.cs
+Assets/Plugins/Slua_Managed/LuaDLL.cs
+Assets/Plugins/Slua_Managed/LuaDLLWrapper.cs
+Assets/Plugins/Slua_Managed/LuaObject.cs
+Assets/Plugins/Slua_Managed/LuaObject_basetype.cs
+Assets/Plugins/Slua_Managed/LuaObject_overload.cs
+Assets/Plugins/Slua_Managed/LuaState.cs
+Assets/Plugins/Slua_Managed/LuaSvr.cs
+Assets/Plugins/Slua_Managed/LuaSvrGameObject.cs
+Assets/Plugins/Slua_Managed/LuaValueType.cs
+Assets/Plugins/Slua_Managed/LuaVarObject.cs
+Assets/Plugins/Slua_Managed/ObjectCache.cs
+Assets/Plugins/Slua_Managed/SLuaSetting.cs
+Assets/Plugins/Slua_Managed/Timer.cs
+Assets/Plugins/Slua_Managed/WeakDictionary.cs
+Assets/Plugins/xLua/Examples/01_Helloworld/Helloworld.cs
+Assets/Plugins/xLua/Examples/02_U3DScripting/LuaBehaviour.cs
+Assets/Plugins/xLua/Examples/04_LuaObjectOrented/InvokeLua.cs
+Assets/Plugins/xLua/Examples/05_NoGc/NoGc.cs
+Assets/Plugins/xLua/Examples/06_Coroutine/Coroutine.cs
+Assets/Plugins/xLua/Examples/06_Coroutine/Coroutine_Runner.cs
+Assets/Plugins/xLua/Examples/07_AsyncTest/AsyncTest.cs
+Assets/Plugins/xLua/Examples/07_AsyncTest/MessageBox.cs
+Assets/Plugins/xLua/Examples/08_Hotfix/HotfixTest.cs
+Assets/Plugins/xLua/Examples/08_Hotfix/HotfixTest2.cs
+Assets/Plugins/xLua/Examples/08_Hotfix/StatefullTest.cs
+Assets/Plugins/xLua/Examples/09_GenericMethod/Foo.cs
+Assets/Plugins/xLua/Examples/09_GenericMethod/GenericMethodExample.cs
+Assets/Plugins/xLua/Examples/ExampleGenConfig.cs
+Assets/Plugins/xLua/Gen/Coroutine_RunnerWrap.cs
+Assets/Plugins/xLua/Gen/CSCallLuaItfDBridge.cs
+Assets/Plugins/xLua/Gen/DelegatesGensBridge.cs
+Assets/Plugins/xLua/Gen/EnumWrap.cs
+Assets/Plugins/xLua/Gen/Foo1ChildWrap.cs
+Assets/Plugins/xLua/Gen/Foo1ParentWrap.cs
+Assets/Plugins/xLua/Gen/Foo2ChildWrap.cs
+Assets/Plugins/xLua/Gen/Foo2ParentWrap.cs
+Assets/Plugins/xLua/Gen/FooExtensionWrap.cs
+Assets/Plugins/xLua/Gen/FooWrap.cs
+Assets/Plugins/xLua/Gen/InvokeLuaICalcBridge.cs
+Assets/Plugins/xLua/Gen/KSFrameworkLuaModuleWrap.cs
+Assets/Plugins/xLua/Gen/LuaBehaviourWrap.cs
+Assets/Plugins/xLua/Gen/PackUnpack.cs
+Assets/Plugins/xLua/Gen/SystemCollectionsGenericList1SystemInt32Wrap.cs
+Assets/Plugins/xLua/Gen/SystemCollectionsIEnumeratorBridge.cs
+Assets/Plugins/xLua/Gen/SystemObjectWrap.cs
+Assets/Plugins/xLua/Gen/TutorialBaseClassWrap.cs
+Assets/Plugins/xLua/Gen/TutorialCalcWrap.cs
+Assets/Plugins/xLua/Gen/TutorialDrivenClassExtensionsWrap.cs
+Assets/Plugins/xLua/Gen/TutorialDrivenClassWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineAnimationClipWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineAnimationCurveWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineBehaviourWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineBoundsWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineColorWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineComponentWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineDebugWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineGameObjectWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineKeyframeWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineMonoBehaviourWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineObjectWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineParticleSystemWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineQuaternionWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineRay2DWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineRayWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineRendererWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineResourcesWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineSkinnedMeshRendererWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineTextAssetWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineTimeWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineTransformWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineVector2Wrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineVector3Wrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineVector4Wrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineWaitForSecondsWrap.cs
+Assets/Plugins/xLua/Gen/UnityEngineWWWWrap.cs
+Assets/Plugins/xLua/Gen/WrapPusher.cs
+Assets/Plugins/xLua/Gen/XLuaGenAutoRegister.cs
+Assets/Plugins/xLua/Gen/XLuaTestIExchangerBridge.cs
+Assets/Plugins/xLua/Gen/XLuaTestMyStructWrap.cs
+Assets/Plugins/xLua/Gen/XLuaTestNoGcWrap.cs
+Assets/Plugins/xLua/Gen/XLuaTestPeddingWrap.cs
+Assets/Plugins/xLua/Src/CodeEmit.cs
+Assets/Plugins/xLua/Src/CopyByValue.cs
+Assets/Plugins/xLua/Src/DelegateBridge.cs
+Assets/Plugins/xLua/Src/GenAttributes.cs
+Assets/Plugins/xLua/Src/GenConfig.cs
+Assets/Plugins/xLua/Src/LuaBase.cs
+Assets/Plugins/xLua/Src/LuaDLL.cs
+Assets/Plugins/xLua/Src/LuaEnv.cs
+Assets/Plugins/xLua/Src/LuaException.cs
+Assets/Plugins/xLua/Src/LuaFunction.cs
+Assets/Plugins/xLua/Src/LuaTable.cs
+Assets/Plugins/xLua/Src/MethodWarpsCache.cs
+Assets/Plugins/xLua/Src/ObjectCasters.cs
+Assets/Plugins/xLua/Src/ObjectPool.cs
+Assets/Plugins/xLua/Src/ObjectTranslator.cs
+Assets/Plugins/xLua/Src/ObjectTranslatorPool.cs
+Assets/Plugins/xLua/Src/StaticLuaCallbacks.cs
+Assets/Plugins/xLua/Src/TemplateEngine/TemplateEngine.cs
+Assets/Plugins/xLua/Src/Utils.cs
+Assets/Plugins/xLua/Tutorial/CSharpCallLua/CSCallLua.cs
+Assets/Plugins/xLua/Tutorial/LoadLuaScript/ByFile/ByFile.cs
+Assets/Plugins/xLua/Tutorial/LoadLuaScript/ByString/ByString.cs
+Assets/Plugins/xLua/Tutorial/LoadLuaScript/Loader/CustomLoader.cs
+Assets/Plugins/xLua/Tutorial/LuaCallCSharp/LuaCallCs.cs
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

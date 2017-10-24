@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSFramework.Plugins", "KSFramework.Plugins.csproj", "{31F2780D-606A-0A91-2EE4-3E9DA08822F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSFramework", "KSFramework.csproj", "{5B904C48-D3AC-231D-1B19-490DE2DBB282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSFramework.Editor.Plugins", "KSFramework.Editor.Plugins.csproj", "{A424CA74-062B-400E-655F-DD93C778C56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSFramework.Editor", "KSFramework.Editor.csproj", "{7C48D453-2FAC-2B18-AE9B-A47664BB1E81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F2780D-606A-0A91-2EE4-3E9DA08822F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F2780D-606A-0A91-2EE4-3E9DA08822F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F2780D-606A-0A91-2EE4-3E9DA08822F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F2780D-606A-0A91-2EE4-3E9DA08822F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B904C48-D3AC-231D-1B19-490DE2DBB282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B904C48-D3AC-231D-1B19-490DE2DBB282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B904C48-D3AC-231D-1B19-490DE2DBB282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B904C48-D3AC-231D-1B19-490DE2DBB282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A424CA74-062B-400E-655F-DD93C778C56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A424CA74-062B-400E-655F-DD93C778C56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A424CA74-062B-400E-655F-DD93C778C56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A424CA74-062B-400E-655F-DD93C778C56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C48D453-2FAC-2B18-AE9B-A47664BB1E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C48D453-2FAC-2B18-AE9B-A47664BB1E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C48D453-2FAC-2B18-AE9B-A47664BB1E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C48D453-2FAC-2B18-AE9B-A47664BB1E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

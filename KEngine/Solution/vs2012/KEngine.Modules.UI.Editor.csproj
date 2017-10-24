@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E25E2EE-7AE7-1579-C397-A4052F99EE56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KEngine.Modules.UI.Editor</RootNamespace>
+    <AssemblyName>KEngine.Modules.UI.Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Build\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>obj\Debug\KEngine.Modules.UI.Editor\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>_DEBUG;DEBUG;TRACE;MS_DOTNET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>../../Build/Debug/KEngine.Modules.UI.Editor.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Build\Release\</OutputPath>
+    <BaseIntermediateOutputPath>obj\Release\KEngine.Modules.UI.Editor\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <DefineConstants>MS_DOTNET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>../../Build/Release/KEngine.Modules.UI.Editor.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Tools\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\Tools\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\Tools\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyInfo.cs">
+      <Link>AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Modules.UI.Editor\KBuild_UGUI.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Modules.UI.Editor\KBuild_UGUI.cs</Link>
+    </Compile>
+    <Compile Include="..\..\KEngine.UnityProject\Assets\KEngine.Modules.UI.Editor\KUIWindowAssetEditor.cs">
+      <Link>KEngine.UnityProject\Assets\KEngine.Modules.UI.Editor\KUIWindowAssetEditor.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KEngine.csproj">
+      <Project>{062D043A-720C-83D5-7B24-0EACE782E936}</Project>
+      <Name>KEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="KEngine.Lib.csproj">
+      <Project>{ABCAD9CA-1780-52C0-A074-4C970C2949C4}</Project>
+      <Name>KEngine.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="KEngine.Modules.UI.csproj">
+      <Project>{B90ED387-A5F2-93DD-0E53-8E30FA557E5F}</Project>
+      <Name>KEngine.Modules.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="KEngine.Editor.csproj">
+      <Project>{BB8AB2E6-A758-A6EC-90EC-16137C598251}</Project>
+      <Name>KEngine.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
